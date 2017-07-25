@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>五子棋</title>
+</head>
+<style type="text/css">
+	#chess {
+		width: 100%;
+		height: calc(width);
+		border:1px solid;		
+	}
+	button{
+		font-size: 20px;
+		font-family: "微软雅黑";
+	}
+	div{
+		color:red;
+	}
+</style>
+
+<body>
+	<canvas id="chess" width="450" height="450"></canvas>
+	<button id='vsPeople'>人人大战</button>
+	&nbsp;&nbsp;&nbsp;&nbsp;<button id='vsComputer'>人机大战</button><p>
+	<button id='repeat'>重新开始</button>
+	<div id="info">请选择“人人大战”或“人机大战”，开战！！！<br>黑子先行</div>
+</body>
+	<script src='js/index.js'></script>
+</html>
